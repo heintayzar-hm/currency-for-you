@@ -14,7 +14,7 @@ const CurrenciesScreen = () => {
 	const { firstCurrency, secondCurrency } = useSelector(state => state.currency);
 
 	useEffect(() => {
-		if (!liveCurrencies.latestFetched) {
+		if (Object.keys(liveCurrencies.response).length === 0) {
 			dispatch(getRates());
 			return;
 		}
@@ -27,6 +27,7 @@ const CurrenciesScreen = () => {
 	}, []);
 
 	if (liveCurrencies.error) return (<Title>{liveCurrencies.error}</Title>);
+	if(Object.keys(liveCurrencies.response).length === 0) return (<Title>Loading...</Title>);
 
 
 	const handleInputChange = (value, type, name) => {
