@@ -7,7 +7,13 @@
     "ios": "react-native run-ios",
     "lint": "eslint . --fix",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "np": "np --no-publish",
+    "postversion": "react-native-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heintayzar-hm/currency-for-you.git"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.18.1",
@@ -19,6 +25,7 @@
     "axios": "^1.4.0",
     "eslint-config-xo": "^0.43.1",
     "install": "^0.13.0",
+    "np": "^7.7.0",
     "react": "18.2.0",
     "react-native": "0.71.8",
     "react-native-config": "^1.5.1",
@@ -52,6 +59,7 @@
     "metro-react-native-babel-preset": "0.73.9",
     "prettier": "^2.4.1",
     "react-native-dotenv": "^3.4.8",
+    "react-native-version": "^4.0.0",
     "react-test-renderer": "18.2.0"
   },
   "jest": {
