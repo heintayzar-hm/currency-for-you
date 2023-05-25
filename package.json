@@ -8,7 +8,7 @@
     "lint": "eslint . --fix",
     "start": "react-native start",
     "test": "jest",
-    "np": "np --no-publish",
+    "np": "np --branch=deploy",
     "postversion": "react-native-version"
   },
   "repository": {
