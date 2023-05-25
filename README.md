@@ -44,18 +44,14 @@
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>API</summary>
   <ul>
-    <li><a href="https://rails.org/">Rails</a></li>
+      <li><a href="https://www.currencylayer.com/">currencylayer.com</a></li>
+
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.currencylayer.com/">currencylayer.com</a></li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
