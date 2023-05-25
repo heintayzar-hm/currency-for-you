@@ -30,7 +30,7 @@
 
 # 📖 CURRENCY FOR YOU <a name="about-project"></a>
 
-CURRENCY FOR YOU is a React Native app for currency tracking and conversion, using exchange rates data from the CurrencyLayer API. Users can create a free API Access Key for seamless integration. The app allows currency selection, amount input, and viewing exchange rates, with locally stored rates refreshed every 30 minutes. Built with React Native, it follows Clean Architecture principles 
+CURRENCY FOR YOU is a React Native app for currency tracking and conversion, using exchange rates data from the CurrencyLayer API. The app allows currency selection, amount input, and viewing exchange rates, with locally stored rates refreshed every 30 minutes. Built with React Native, it follows Clean Architecture principles 
 
 ### Tech Stack <a name="tech-stack"></a>
 
