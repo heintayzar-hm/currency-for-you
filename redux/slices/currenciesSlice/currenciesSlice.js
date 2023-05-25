@@ -16,7 +16,8 @@ const currenciesSlice = createSlice({
 		builder.addCase(getRates.fulfilled, (state, action) => ({
 			...state, response: action.payload, loading: false, latestFetched: new Date(), error: null,
 		}));
-		builder.addCase(getRates.rejected, (state) => ({...state, loading: false, error: "Cannot receive data from the server" }));
+		builder.addCase(getRates.rejected, (state) => ({ ...state, loading: false, error: "Cannot receive data from the server" }));
+		builder.addCase(getRates.pending, (state) => ({ ...state, loading: true }));
 	},
 });
 

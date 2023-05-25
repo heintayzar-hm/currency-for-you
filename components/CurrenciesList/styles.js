@@ -23,4 +23,27 @@ export default StyleSheet.create({
 		borderWidth: 1,
 		paddingHorizontal: 10,
 	},
+	currencyBold: {
+		flexDirection: "row",
+		alignItems: "center",
+		padding: 10,
+		backgroundColor: "rgb(174 255 248)",
+	},
+	currencyBoldText: {
+		fontWeight: "bold",
+		backgroundColor: "rgb(174 255 248)",
+		color: "black",
+	},
+	currencyCodeBoldText: {
+		marginRight: 10,
+		fontWeight: "bold",
+		backgroundColor: "rgb(174 255 248)",
+		color: "black",
+	},
+	currencyNameBoldText: {
+		flex: 1,
+		fontWeight: "bold",
+		backgroundColor: "rgb(174 255 248)",
+		color: "black",
+	},
 });
