@@ -7,8 +7,8 @@ export const SCREENS = {
 };
 
 export const API = {
-	URL: API_URL || "http://apilayer.net/api/live",
-	SECRET_KEY: API_KEY,
+	URL: API_URL || "http://apilayer.net/api/",
+	SECRET_KEY: API_KEY || "872255da0f7053b2e16ec8110cbd87f2",
 	END_POINTS: {
 		LATEST: "/latest",
 		LIVE: "/live",
