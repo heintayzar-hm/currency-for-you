@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Work In Progress
+You can see the packages in the releases section. (You might need to buy api to deploy on certain android as they do not allow `http` requests( the api free plan is `http`)) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
