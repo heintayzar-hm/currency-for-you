@@ -1,15 +1,32 @@
-import {combineReducers, configureStore} from '@reduxjs/toolkit';
-import {persistStore} from 'redux-persist';
-import thunk from 'redux-thunk';
-import logger from 'redux-logger';
+import {combineReducers, configureStore} from "@reduxjs/toolkit";
+import {persistStore} from "redux-persist";
+import persistReducer from "redux-persist/es/persistReducer";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import currenciesReducer from "../slices/currenciesSlice/currenciesSlice";
+import currencyReducer from "../slices/currencySlice/currencySlice";
+import thunk from "redux-thunk";
+// Import logger from 'redux-logger';
 
 const rootReducer = combineReducers({
-	currency: require('../slices/currencySlice/currencySlice').default,
+	currencies: currenciesReducer,
+	currency: currencyReducer,
 });
-const middleWares = [logger, thunk];
+const middleWares = [thunk];
+const persistConfig = {
+	// Root
+	key: "root",
+	storage: AsyncStorage,
+	whitelist: [
+		"currencies",
+	],
+	blacklist: [
+		"currency",
+	],
+};
+const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 const store = configureStore({
-	reducer: rootReducer,
+	reducer: persistedReducer,
 	middleware: middleWares,
 });
 
