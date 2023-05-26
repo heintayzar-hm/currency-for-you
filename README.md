@@ -30,7 +30,7 @@
 
 # 📖 CURRENCY FOR YOU <a name="about-project"></a>
 
-CURRENCY FOR YOU is a React Native app for currency tracking and conversion, using exchange rates data from the CurrencyLayer API. The app allows currency selection, amount input, and viewing exchange rates, with locally stored rates refreshed every 30 minutes. Built with React Native, it follows Clean Architecture principles 
+CURRENCY FOR YOU is a React Native app for currency tracking and conversion, using exchange rates data from the CurrencyLayer API. The app allows currency selection, amount input, and viewing exchange rates, with locally stored rates refreshed every 30 minutes. Built with React Native, it follows Clean Architecture principles
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -67,7 +67,7 @@ CURRENCY FOR YOU is a React Native app for currency tracking and conversion, usi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can see the packages in the releases section. (You might need to buy api to deploy on certain android as they do not allow `http` requests( the api free plan is `http`)) 
+You can see the packages in the releases section. (You might need to buy api to deploy on certain android as they do not allow `http` requests( the api free plan is `http`))
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -133,6 +133,10 @@ User can deploy yourself using:
 
 ```sh
 npx react-native run-android --variant=release
+```
+or
+```sh
+cd android && ./gradlew assembleRelease
 ```
 
 You will get a file at <b>currency-for-you/android/app/build/outputs/apk/release/app-release.apk</b>
