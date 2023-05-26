@@ -68,6 +68,11 @@ CURRENCY FOR YOU is a React Native app for currency tracking and conversion, usi
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 You can see the packages in the releases section. (You might need to buy api to deploy on certain android as they do not allow `http` requests( the api free plan is `http`))
+
+You can also see short video presentation here:
+
+![](./video/short.mp4)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
