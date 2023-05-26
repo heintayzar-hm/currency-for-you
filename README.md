@@ -71,7 +71,14 @@ You can see the packages in the releases section. (You might need to buy api to 
 
 You can also see short video presentation here:
 
-![](./video/short.mp4)
+
+
+https://github.com/heintayzar-hm/currency-for-you/assets/105173981/e8b79134-fee3-45f9-8215-1d53ffd387c7
+
+or Link here if the above video is not working:
+
+[YouTube](https://youtube.com/shorts/83n6Aj1IxxM)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
